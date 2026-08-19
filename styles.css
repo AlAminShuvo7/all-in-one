@@ -14,25 +14,35 @@ nav {
   border: 1px solid #ccc;
   color: white;
   padding: 10px;
+  background-color: #61d131;
+  font-weight: 500;
+  font-size: 1.2em;
 }
 nav a {
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
 }
-nav a:active, nav a:visited {
+nav a:active, nav a:visited, nav a:link {
   color: black;
 }
 ul {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 3%
+}
+#redirect-2, #vivid-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7%;
 }
 li {
   display: inline-block;
   margin-right: 10px;
 }
-ul > li {
+ul li {
   border: 1px solid #777;
 }
 #home {
