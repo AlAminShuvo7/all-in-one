@@ -1,56 +1,72 @@
 .roboto-normal {
   font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
 nav {
-  border: 1px solid #ccc;
-  color: white;
-  padding: 10px;
-  background-color: #61d131;
   font-weight: 500;
-  font-size: 1.2em;
+  font-size: 1.3em;
 }
 nav a {
   text-decoration: none;
-  padding: 5px 10px;
-  border-radius: 5px;
+  list-style-type: none;
+  padding: 1rem;
 }
 nav a:active, nav a:visited, nav a:link {
   color: black;
 }
-ul {
-  display: flex;
-  justify-content: space-between;
+#nav-bar {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
   align-items: center;
-  padding: 0 3%
 }
-#redirect-2, #vivid-3 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 7%;
+#nav-1 {
+  background-color: #d3da88;
 }
-li {
+#nav-2 {
+  background-color: #b3cf91;
+}
+#nav-3 {
+  background-color: #d2c0c0;
+}
+#nav-3 i {
+  display: inline;
+  margin-right: 0.5rem;
+}
+#nav-bar li {
   display: inline-block;
   margin-right: 10px;
 }
-ul li {
-  border: 1px solid #777;
-}
-#home {
+#nav-bar div {
   display: flex;
   align-items: center;
+  justify-content: space-around;
+}
+#nav-2, #nav-3 {
+  padding: 1rem;
+}
+#home {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
 }
 #home img {
-  width: 30px;
-  height: 30px;
-  margin-right: 5px;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media only screen and (max-width: 768px) {
+  #nav-bar {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+  }
+  nav div, #home {
+    padding: 0.5rem;
+  }
 }
