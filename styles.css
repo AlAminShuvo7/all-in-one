@@ -27,13 +27,13 @@ nav a:active, nav a:visited, nav a:link {
   align-items: center;
 }
 #nav-1 {
-  background-color: #d3da88;
+  background-color: #ccc;
 }
 #nav-2 {
-  background-color: #b3cf91;
+  background-color: #ddd;
 }
 #nav-3 {
-  background-color: #d2c0c0;
+  background-color: #ccc;
 }
 #nav-3 i {
   display: inline;
@@ -67,6 +67,6 @@ nav a:active, nav a:visited, nav a:link {
     grid-template-rows: repeat(3, auto);
   }
   nav div, #home {
-    padding: 0.5rem;
+    padding: 0.4rem;
   }
 }
