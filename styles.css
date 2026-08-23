@@ -1,5 +1,13 @@
 .roboto-normal {
   font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.dancing-script-normal {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
@@ -72,4 +80,18 @@ nav a:active, nav a:visited, nav a:link {
   #home {
     padding: 0.5rem;
   }
+}
+#main-heading {
+  border: 1px solid black;
+  text-align: center;
+  padding: 5vh 0;
+}
+#main-heading {
+  font-size: 2rem;
+}
+#main-heading i {
+  font-family: "Dancing Script", cursive;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: darkred;
 }
