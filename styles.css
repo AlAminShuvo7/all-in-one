@@ -95,3 +95,15 @@ nav a:active, nav a:visited, nav a:link {
   font-weight: 700;
   color: darkred;
 }
+#cards a {
+  text-decoration: none;
+}
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#cards div {
+  border: 1px solid green;
+  padding: 1rem;
+}
