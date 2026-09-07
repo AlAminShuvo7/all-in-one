@@ -4,7 +4,6 @@
   font-weight: normal;
   font-style: normal;
 }
-
 .dancing-script-normal {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
@@ -17,70 +16,56 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
-nav {
-  font-weight: 500;
-  font-size: 1.3em;
+#nav-menu {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
 }
-nav a {
-  text-decoration: none;
-  list-style-type: none;
-  padding: 1rem;
+#nav-menu li {
+    
+    width: 100%;
+    text-align: center;
 }
-nav a:active, nav a:visited, nav a:link {
-  color: black;
-}
-#nav-bar {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  align-items: center;
-}
-#nav-1 {
-  background-color: #ccc;
-}
-#nav-2 {
-  background-color: #ddd;
-}
-#nav-3 {
-  background-color: #ccc;
-}
-#nav-3 i {
-  display: inline;
-  margin-right: 0.5rem;
-}
-#nav-bar li {
-  display: inline-block;
-  margin-right: 10px;
-}
-#nav-bar div {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-#nav-2, #nav-3 {
-  padding: 1rem;
+#nav-menu a {
+    width: 100%;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 2.5vw;
 }
 #home {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-
+    background-color: #15aa15;
 }
-#home img {
-  width: 1.5rem;
-  height: 1.5rem;
+#home a:active {
+    color: white;
+}
+#home a:hover {
+    background-color: #559155;
+}
+#home a:visited {
+    color: white;
+}
+#empty, #links, #search {
+    color: #15aa15;
+}
+#empty a:active, #links a:active, #search a:active {
+    color: #15aa15;
+}
+#empty a:visited, #links a:visited, #search a:visited {
+    color: #15aa15;
+}
+#empty a:link, #links a:link, #search a:link {
+    color: #15aa15;
+}
+#links a:hover, #search a:hover {
+    background-color: #dee5de;
 }
 @media only screen and (max-width: 768px) {
-  #nav-bar {
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, auto);
-  }
-  nav div {
-    padding: 0.2rem;
-  }
-  #home {
-    padding: 0.5rem;
-  }
+  
 }
+
+/* BODY Section */
 #main-heading {
   border: 1px solid black;
   text-align: center;
