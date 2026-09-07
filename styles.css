@@ -44,6 +44,9 @@
 #home a:visited {
     color: white;
 }
+#home a:link {
+    color: white;
+}
 #empty, #links, #search {
     color: #15aa15;
     background-color: #eee;
