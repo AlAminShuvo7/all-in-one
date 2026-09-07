@@ -4,10 +4,9 @@
   font-weight: normal;
   font-style: normal;
 }
-.dancing-script-normal {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: normal;
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
   font-style: normal;
 }
 * {
@@ -22,7 +21,6 @@
     justify-content: space-around;
 }
 #nav-menu li {
-    
     width: 100%;
     text-align: center;
 }
@@ -32,7 +30,7 @@
     font-weight: bold;
     display: inline-block;
     padding: 15px 0;
-    font-size: 2.5vw;
+    font-size: 2.2vw;
 }
 #home {
     background-color: #15aa15;
@@ -48,6 +46,7 @@
 }
 #empty, #links, #search {
     color: #15aa15;
+    background-color: #eee;
 }
 #empty a:active, #links a:active, #search a:active {
     color: #15aa15;
@@ -67,18 +66,20 @@
 
 /* BODY Section */
 #main-heading {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   text-align: center;
-  padding: 5vh 0;
-}
-#main-heading {
-  font-size: 2rem;
+  font-size: 4vw;
+  padding: 4rem 0;
+  background-image: url('images/sky.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
 }
 #main-heading i {
-  font-family: "Dancing Script", cursive;
-  font-size: 2.8rem;
+  font-family: "Courgette", cursive;
+  font-size: 4.2vw;
   font-weight: 700;
-  color: darkred;
+  color: red;
 }
 #cards a {
   text-decoration: none;
